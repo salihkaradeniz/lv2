@@ -1,0 +1,213 @@
+:root {
+    --darkBg: #191c28
+}
+
+body.dark_mode,
+.dark_mode .index_tools::before,
+.dark_mode .footer_top {
+    background-color: var(--darkBg);
+}
+
+.dark_mode .indexLogoLister::before {
+    background: linear-gradient(0deg, rgb(25 28 40) 0%, rgba(0, 212, 255, 0) 100%);
+}
+
+.dark_mode .indexLogoLister+a,
+.dark_mode .section_title .btn_component,
+.dark_mode .see_all81 .btn_component,
+.dark_mode .fs_button .btn_component,
+.dark_mode .ib_item,
+.dark_mode .footer_btns a.btn_component:nth-child(1),
+.dark_mode .the_header.active .header_right>ul>li>a.for_register,
+.dark_mode .ss_inner input,
+.dark_mode .ss_inner input:focus,
+.dark_mode .pagination_section ul li:last-child a,
+.dark_mode .mot_filters label input:checked~span,
+.dark_mode .radio_button1 li label input:checked~span,
+.dark_mode .theme_switch,
+.dark_mode .the_header.active .theme_switch {
+    color: rgb(166, 175, 207);
+    background-color: rgb(74 83 113 / 40%);
+    border-color: rgba(74, 83, 113, 0.08);
+}
+
+.dark_mode .section_title h3,
+.dark_mode .char_anim,
+.dark_mode .fs_texts h2,
+.dark_mode .fs_texts p,
+.dark_mode .ib_item h3 a,
+.dark_mode .linkBox h4,
+.dark_mode .linkBox ul li a,
+.dark_mode .footer_bottom span,
+.dark_mode .the_header.active .header_right>ul>li>a,
+.dark_mode .ss_inner input,
+.dark_mode .rc_title,
+.dark_mode .rc_ops li a,
+.dark_mode .rc_ops li a.active,
+.dark_mode .filter_widget h4,
+.dark_mode .select2-selection__clear span,
+.dark_mode .select2-container--default .select2-selection--multiple .select2-selection__choice,
+.dark_mode .radio_button1 li label span {
+    color: #fff;
+}
+
+.dark_mode .rc_ops li a.active {
+    border-color: #fff;
+}
+
+.dark_mode .full_section {
+    background-image: linear-gradient(180deg, #23283c 0%, rgba(245, 246, 250, 0) 100%);
+}
+
+.dark_mode .fadeText svg,
+.dark_mode .fadeText svg *,
+.dark_mode .filter_widget svg,
+.dark_mode .filter_widget svg *,
+.dark_mode .header_right>ul>li.menu_trigger1 button,
+.dark_mode .header_right>ul>li.menu_trigger1 button * {
+    fill: #fff;
+}
+
+.dark_mode #blogPagination .swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+.dark_mode .vs_video video {
+    mix-blend-mode: unset;
+}
+
+.dark_mode footer,
+.dark_mode .the_header.active {
+    background-color: rgb(46 51 70);
+}
+
+.dark_mode .footer_btns a.btn_component,
+.dark_mode .indexLogoLister>div a {
+    border: none;
+}
+
+.dark_mode .footer_logo {
+    mix-blend-mode: exclusion;
+    filter: brightness(20);
+}
+
+.dark_mode .nice-select {
+    background-color: transparent;
+    color: #fff;
+}
+
+@media(min-width:769px) {
+    .dark_mode .linkBox.social ul li a {
+        color: #fff !important;
+    }
+}
+
+@media(min-width:993px) {
+    .dark_mode .res_filters.hiddenFilters .filter_widget h4 {
+        color: rgb(166, 175, 207);
+        background-color: rgb(74 83 113 / 40%);
+        border-color: rgba(74, 83, 113, 0.08);
+    }
+    .dark_mode .res_filters.hiddenFilters h4 svg,
+    .dark_mode .res_filters.hiddenFilters h4 svg * {
+        fill: rgb(166, 175, 207);
+    }
+}
+
+.dark_mode .footer_bottom,
+.dark_mode .res_filters,
+.dark_mode .rc_options,
+.dark_mode .filters_title,
+.dark_mode .fw_content .select2-container,
+.dark_mode .select2-container--default .select2-selection--multiple .select2-selection__choice,
+.dark_mode .radio_button1 li label span,
+.dark_mode .mot_filters label span,
+.dark_mode .filter_btn {
+    border-color: rgb(255 255 255 / 13%);
+}
+
+.dark_mode .ss_inner input::placeholder,
+.dark_mode .select2-container--default .select2-search--inline .select2-search__field::placeholder {
+    color: rgb(166, 175, 207);
+}
+
+.dark_mode .ss_inner svg,
+.dark_mode .ss_inner svg * {
+    fill: rgb(166, 175, 207);
+}
+
+.dark_mode .rf_inner {
+    scrollbar-color: rgba(255, 255, 255, 0.14) var(--blueColor);
+    transition: all .3s;
+}
+
+.dark_mode .rf_inner:hover {
+    scrollbar-color: rgb(87, 95, 122) var(--blueColor);
+}
+
+.dark_mode .nice-select .list {
+    background-color: rgb(46 51 70);
+    border: none;
+}
+
+.dark_mode .nice-select .option:hover,
+.dark_mode .nice-select .option.focus,
+.dark_mode .nice-select .option.selected.focus {
+    background-color: rgb(19 23 35);
+}
+
+.dark_mode .the_header.active img {
+    opacity: 1;
+}
+
+.dark_mode .the_header.active .header_logo svg {
+    opacity: 0;
+}
+
+.dark_mode .homePageHeader.active .src_button button {
+    color: #fff;
+    border-color: #fff !important;
+}
+
+@media(max-width:1170px) {
+    .dark_mode .rsp_content {
+        background-color: var(--darkBg);
+    }
+    .dark_mode div.rc_options .nice-select {
+        background: rgb(19 23 35);
+        color: #fff;
+    }
+    .dark_mode .rsp_dwn ul::before {
+        background-color: rgb(70 73 84);
+    }
+    .dark_mode div.sticky_search {
+        background-color: rgb(70 73 84);
+        box-shadow: none;
+    }
+    .dark_mode .the_header .ss_inner input,
+    .dark_mode #innerHeader .the_header .ss_inner input {
+        background-color: rgba(255, 255, 255, 0.14);
+        border-color: rgba(255, 255, 255, 0.23);
+        color: rgb(255, 255, 255);
+    }
+    .dark_mode .the_header .ss_inner input::placeholder,
+    .dark_mode #innerHeader .the_header .ss_inner input::placeholder,
+    .dark_mode .homePageHeader .sticky_search .ss_inner button,
+    .dark_mode .rsp_dwn ul li a,
+    .dark_mode .rsp_content>ul>li>a {
+        color: #fff;
+    }
+    .dark_mode .sticky_search .ss_inner svg,
+    .dark_mode .sticky_search .ss_inner svg * {
+        fill: #fff !important;
+    }
+}
+
+@media(max-width:992px) {
+    .dark_mode .ss_filter {
+        color: #fff;
+    }
+    .dark_mode div.res_filters {
+        background: rgb(19 23 35);
+    }
+}
